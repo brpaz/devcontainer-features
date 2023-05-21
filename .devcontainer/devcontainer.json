@@ -19,7 +19,12 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers/features/github-cli": {}
+        "ghcr.io/devcontainers/features/github-cli": {},
+        "ghcr.io/devcontainers-contrib/features/zsh-plugins": {
+            "plugins": "zsh-completions zsh-autosuggestions zsh-fzf-history-search",
+            "omzPlugins": "joshskidmore/zsh-fzf-history-search",
+            "username": "node"
+        }
     },
     "remoteUser": "node",
     "updateContentCommand": "npm i"
