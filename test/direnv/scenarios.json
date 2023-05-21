@@ -1,0 +1,14 @@
+{
+    "direnv_installed": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:1": {
+                "installZsh": true,
+                "installOhMyZsh": false,
+                "upgradePackages": false
+            },
+            "direnv": {}
+        },
+        "user": "vscode"
+    }
+}

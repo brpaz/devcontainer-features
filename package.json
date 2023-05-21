@@ -1,0 +1,17 @@
+{
+  "name": "@brpaz/devcontainer-features",
+  "version": "1.0.0",
+  "description": "Devcontainer features for VSCode",
+  "license": "MIT",
+  "author": {
+    "name": "Bruno Paz",
+    "email": "oss@brunopaz.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brpaz/devcontainer-features.git"
+  },
+  "dependencies": {
+    "@devcontainers/cli": "^0.41.0"
+  }
+}
