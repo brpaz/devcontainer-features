@@ -16,5 +16,5 @@ tasks:
 
   test:all:
     desc: Runs tests for all features
-    cmds:
+    deps:
       - direnv:test
