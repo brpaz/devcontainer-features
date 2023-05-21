@@ -12,6 +12,10 @@
     "url": "https://github.com/brpaz/devcontainer-features.git"
   },
   "dependencies": {
-    "@devcontainers/cli": "^0.41.0"
+    "@devcontainers/cli": "^0.41.0",
+    "husky": "^8.0.3"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.3"
   }
 }
